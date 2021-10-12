@@ -220,7 +220,7 @@ async def start(_, message: Message):
         await message.reply_text(
         text=JOIN_ASAP, disable_web_page_preview=True, reply_markup=FSUBB
     )
-        return
+        return:
        await Jebot.send_message
                chat_id=message.chat.id,
                text="""<b>👋 Hey There, I'm a Song Downloader Bot. A bot by 👨‍💻 @itech.
